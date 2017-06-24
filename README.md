@@ -1,5 +1,7 @@
 # Introduction
 
+[![GoDoc](https://godoc.org/github.com/bradleyfalzon/tlsx?status.svg)](https://godoc.org/github.com/bradleyfalzon/tlsx)
+
 `tlsx` was a private library I was using to analyse TLS Client Hello messages sent by browsers.
 
 I didn't continue to the project, but others asked about it, so I thought I'd open source it without warranty.
@@ -8,7 +10,7 @@ The library requires the TCP payload of a TLS Client Hello message, which can be
 (gopacket)[https://github.com/google/gopacket] (see example).
 
 *This program is not used internally by myself anymore, and may not have an updated list of ciphers, extensions etc. But
-it may work for you.*
+it may work for you. It was written when I was first learning Go, and there's no tests.*
 
 # Example usage
 
